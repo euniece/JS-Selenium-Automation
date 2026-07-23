@@ -1,7 +1,10 @@
 const {Builder, By, Key, util, until} = require ("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 async function registrationForm(params) {
-    let driver = new Builder().forBrowser('chrome').build();
+        
+        let options = new chrome.Options();
+        options.addArguments('--start-maximized');
+        let driver = new Builder().forBrowser('chrome').setChromeOptions(options).build();
 
     try{
 
