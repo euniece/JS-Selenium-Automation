@@ -8,5 +8,7 @@
 
 **Technologies Used**
 JavaScript – Programming language for scripting
+
 Selenium WebDriver – Browser automation framework
+
 Node.js – Runtime environment for running the scripts
