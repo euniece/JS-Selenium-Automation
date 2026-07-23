@@ -7,6 +7,7 @@
 3. Scripts are modular and easy to modify
 
 **Technologies Used**
+
 JavaScript – Programming language for scripting
 
 Selenium WebDriver – Browser automation framework
